@@ -1,0 +1,96 @@
+div.custom_bg{
+    background-image: radial-gradient(circle at 20% 50%, rgba(3.14%, 14.51%, 40.39%, 0.98) 0%, rgba(3.14%, 14.51%, 40.39%, 0.88) 100%)
+}
+
+.poster {
+    display: block;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    z-index: 2;
+}
+
+.poster img {
+    display: block;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+.header_poster_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    width: 700px;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+
+.header .title{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header .title p{
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    line-height: 1.1em;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.header .body{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.header .body .title-body{
+    font-weight: 600;
+    line-height: 1.3em;
+    font-size: 1.3em;
+}
+
+.submit button{
+    width:500px;
+    height: 30px;
+    background-color: red;
+    color:white;
+
+}
+.submit button:hover{
+    
+    background-color: orange;
+    color:white;
+    
+}
+
+.title h3{
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left:15px;
+}
+.collection{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    height:30px;
+    background-color: black;
+    padding-left:30px;
+    margin-bottom:30px;
+}
+.collection p{
+    text-align: center;
+    color:white;
+
+}
